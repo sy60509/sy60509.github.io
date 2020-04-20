@@ -209,6 +209,8 @@ body {
 #countryId {
 	color: #8a82cc;
 	font-size: 36px;
+	visibility: hidden;
 }
-#textArea {
+.text-left {
+	color: red;
 }

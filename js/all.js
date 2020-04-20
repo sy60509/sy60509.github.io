@@ -2856,7 +2856,38 @@ function addDataToSelect2(e) {
 	var buttonValue = document.querySelector('.btn1').dataset.name;
 	text.innerHTML = buttonValue;
 	console.log(buttonValue);
-	
+	var dis = text.innerHTML;
+	console.log(dis);
+	switch (dis) {
+		case dis:
+			let str = '';
+			let Len = data.length;
+			let i = 0;
+			for (; i < Len; i++) {
+				if (dis == data[i].Zone) {
+					str =
+						str +
+						`	
+				<div class="container">
+					<div class="card-group">
+						<div class="card">
+							<img src="${data[i].Picture1}" class="card-img-top" alt="..." style="24px">
+							<div class="card-body">
+							<h5 class="card-title">${data[i].Name}</h5>
+							<p class="card-text">${data[i].Description}</p>
+							<p class="card-text">${data[i].Add}</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+					`;
+				}
+			}
+			document.querySelector('.countryId').textContent = e.target.value;
+			dataList.innerHTML = str;
+			break;
+	}
 }
 
 var btn2 = document.querySelector('.btn2');
@@ -2866,6 +2897,38 @@ function addDataToSelect3(e) {
 	var buttonValue = document.querySelector('.btn2').dataset.name;
 	text.innerHTML = buttonValue;
 	console.log(buttonValue);
+	var dis = text.innerHTML;
+	console.log(dis);
+	switch (dis) {
+		case dis:
+			let str = '';
+			let Len = data.length;
+			let i = 0;
+			for (; i < Len; i++) {
+				if (dis == data[i].Zone) {
+					str =
+						str +
+						`	
+				<div class="container">
+					<div class="card-group">
+						<div class="card">
+							<img src="${data[i].Picture1}" class="card-img-top" alt="..." style="24px">
+							<div class="card-body">
+							<h5 class="card-title">${data[i].Name}</h5>
+							<p class="card-text">${data[i].Description}</p>
+							<p class="card-text">${data[i].Add}</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+					`;
+				}
+			}
+			document.querySelector('.countryId').textContent = e.target.value;
+			dataList.innerHTML = str;
+			break;
+	}
 }
 
 var btn3 = document.querySelector('.btn3');
@@ -2875,6 +2938,38 @@ function addDataToSelect4(e) {
 	var buttonValue = document.querySelector('.btn3').dataset.name;
 	text.innerHTML = buttonValue;
 	console.log(buttonValue);
+	var dis = text.innerHTML;
+	console.log(dis);
+	switch (dis) {
+		case dis:
+			let str = '';
+			let Len = data.length;
+			let i = 0;
+			for (; i < Len; i++) {
+				if (dis == data[i].Zone) {
+					str =
+						str +
+						`	
+				<div class="container">
+					<div class="card-group">
+						<div class="card">
+							<img src="${data[i].Picture1}" class="card-img-top" alt="..." style="24px">
+							<div class="card-body">
+							<h5 class="card-title">${data[i].Name}</h5>
+							<p class="card-text">${data[i].Description}</p>
+							<p class="card-text">${data[i].Add}</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+					`;
+				}
+			}
+			document.querySelector('.countryId').textContent = e.target.value;
+			dataList.innerHTML = str;
+			break;
+	}
 }
 
 var btn4 = document.querySelector('.btn4');
@@ -2883,7 +2978,38 @@ function addDataToSelect5(e) {
 	e.preventDefault();
 	var buttonValue = document.querySelector('.btn4').dataset.name;
 	text.innerHTML = buttonValue;
-	console.log(buttonValue);
+	var dis = text.innerHTML;
+	console.log(dis);
+	switch (dis) {
+		case dis:
+			let str = '';
+			let Len = data.length;
+			let i = 0;
+			for (; i < Len; i++) {
+				if (dis == data[i].Zone) {
+					str =
+						str +
+						`	
+				<div class="container">
+					<div class="card-group">
+						<div class="card">
+							<img src="${data[i].Picture1}" class="card-img-top" alt="..." style="24px">
+							<div class="card-body">
+							<h5 class="card-title">${data[i].Name}</h5>
+							<p class="card-text">${data[i].Description}</p>
+							<p class="card-text">${data[i].Add}</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							</div>
+						</div>
+					</div>
+				</div>
+					`;
+				}
+			}
+			document.querySelector('.countryId').textContent = e.target.value;
+			dataList.innerHTML = str;
+			break;
+	}
 }
 
 function addDataToSelect(e) {
@@ -2964,4 +3090,4 @@ addDataToSelect2;
 // 	.join('')}
 // `;
 
-function selectCountry(e) {}
+
