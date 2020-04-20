@@ -5,23 +5,113 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="Content-Type" content="id=edge">
-    <title></title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel=" stylesheet" href="./all.css">
 </head>
 
 <body>
-        <h2>星期<span></span></h2>
-        <h3></h3>
-        <select name="" class="area">
-            <option valur="臺北市">臺北市</option>
-            <option valur="高雄市">高雄市</option>
+    <!-- <div>
+        <select id="selectNumber" class="custom-select custom-select-lg mb-3">
+            <option>選擇行政區</option>
         </select>
-        <ul class="list">
-            <li></li>
+        <img src="./assets/Hero.png" alt="Snow" style="width:100%;">
+
+
+    </div> -->
+<div class="jumbotron jumbotron-fluid jumbotron-bg bg-cover mb-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1 class="text-light text-center">高雄旅遊資訊</h1>
+                <select id="selectNumber" class="custom-select custom-select-lg mb-3">
+                    <option disabled>選擇行政區</option>
+                    
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        
+
+        <!-- <div class="centered" style="color:white">高雄旅遊資訊</div> -->
+
+   
+
+    <!-- <div class="container header">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="sub-menu box-shadow">
+                    <p class="text-left" id="title">熱門行政區</p>
+                    <div id="hotZone" class="d-md-flex justify-content-around text-center">
+                        <button type="button" class="btn btn-lg btn-outline-primary text-black mb-3 mb-md-0">三民區</button>
+                        <button type="button" class="btn btn-lg btn-outline-primary text-black mb-3 mb-md-0">苓雅區</button>
+                        <button type="button" class="btn btn-lg btn-outline-primary text-black">新興區</button>
+                        <button type="button" class="btn btn-lg btn-outline-primary text-black">左營區</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<div class="container header">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="sub-menu box-shadow">
+                <p class="text-left">熱門行政區</p>
+                <div id="hotZone" class="d-md-flex justify-content-around text-center">
+                    <button id="btn1" class="btn btn-lg btn-outline-primary text-black mb-3 mb-md-0 btn1" data-name="三民區">三民區</button>
+                    <button id="btn2"  class="btn btn-lg btn-outline-success text-black mb-3 mb-md-0 btn2" data-name="苓雅區">苓雅區</button>
+                    <button id="btn3"  class="btn btn-lg btn-outline-danger text-black btn3" data-name="新興區">新興區</button>
+                    <button id="btn4"  class="btn btn-lg btn-outline-warning text-black btn4" data-name="左營區">左營區</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div id="title" class="text-center my-5"></div>
+    <div class="row travel-info">
+    <h1 id="textArea"></h1>
+    </div>
+    <div>
+        <a href="#" class="top">
+            <img src="https://upload.cc/i1/2019/02/02/PMGswm.png" width="24">
+        </a>
+    </div>
     
-        </ul>
-        <script src="./all.js"></script>
+</div>
+    <div id="app">
+        <div class="container">
+            <div class="content">
+                <h3 id="countryId" class="countryId"></h3>
+                <ul class="list">
+                </ul>
+            </div>
+    </div>
+
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAVㄍㄠ0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="C:\Users\Yun\Desktop\JS-opendata\js\all.js"></script>
 </body>
 
 </html>
